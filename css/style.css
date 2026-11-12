@@ -146,3 +146,33 @@
         grid-row: 1;
     }
 }
+
+/* ABOUT SECTION */
+
+.about {
+    padding: 100px 10%;
+    background: #111827;
+    color: #f8fafc;
+}
+
+.about-container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.about h2 {
+    font-size: 38px;
+    color: #ffffff;
+    margin: 15px 0 30px;
+}
+
+.about h2 .blue {
+    color: #38bdf8;
+}
+
+.about p:not(.eyebrow) {
+    color: #cbd5e1;
+    font-size: 17px;
+    line-height: 1.9;
+    margin-bottom: 20px;
+}
