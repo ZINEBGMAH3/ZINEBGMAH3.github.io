@@ -500,3 +500,78 @@
         grid-template-columns: 1fr;
     }
 }
+
+/* LANGUAGES & PROFESSIONAL QUALITIES */
+
+.languages {
+    padding: 100px 10%;
+    background: #0b1120;
+    color: #f8fafc;
+}
+
+.languages-container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.languages h2 {
+    font-size: 34px;
+    margin: 15px 0 40px;
+}
+
+.languages h2 .blue {
+    color: #38bdf8;
+}
+
+.profile-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+
+.profile-card {
+    background: #111c30;
+    border: 1px solid #24344d;
+    border-radius: 12px;
+    padding: 28px;
+}
+
+.profile-card h3 {
+    color: #38bdf8;
+    font-size: 21px;
+    margin-bottom: 25px;
+}
+
+.language-item {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 15px 0;
+    border-bottom: 1px solid #24344d;
+    color: #cbd5e1;
+}
+
+.language-item span:last-child {
+    color: #38bdf8;
+}
+
+.qualities-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.qualities-grid span {
+    background: #172b45;
+    border: 1px solid #284766;
+    color: #cbd5e1;
+    padding: 10px 13px;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+@media (max-width: 700px) {
+    .profile-grid {
+        grid-template-columns: 1fr;
+    }
+}
